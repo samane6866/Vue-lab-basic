@@ -1,11 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Newproject from "./components/Newproject.vue";
+import { ref } from "vue";
+import Navbar from "./components/Navbar.vue";
+import Footerproject from "./components/Footerproject.vue";
+import iretaion2 from "./components/iretation2.vue";
+import iteration3 from "./components/iteration3.vue";
+import iteration4 from "./components/iteration4.vue";
+import iteration5 from "./components/iteration5.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="./assets/logo.svg"
+      width="125"
+      height="125"
+    />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -15,6 +27,13 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+  <Newproject />
+  <Navbar />
+  <Footerproject />
+  <iretation2 />
+  <iteration3 />
+  <iteration4 />
+  <iteration5 />
 </template>
 
 <style scoped>
